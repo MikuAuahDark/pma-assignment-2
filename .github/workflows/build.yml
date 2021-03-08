@@ -9,8 +9,12 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Setup LuaJIT
+      run: sudo apt-get install --assume-yes luajit
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Prepare
+      run: luajit override_name.lua
     - name: Build
       run: bash ./gradlew assembleDebug
     - name: Artifact
