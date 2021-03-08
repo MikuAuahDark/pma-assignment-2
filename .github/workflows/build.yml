@@ -14,6 +14,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Prepare
+      env:
+        REALNAME_KEY: ${{ secrets.REALNAME_KEY }}
       run: luajit override_name.lua
     - name: Build
       run: bash ./gradlew assembleDebug

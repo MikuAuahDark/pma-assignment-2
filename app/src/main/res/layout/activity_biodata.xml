@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bggradient"
-    tools:context=".MainActivity">
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/dummyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="Biodata"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,7 +27,7 @@
         android:paddingRight="8dp"
         android:paddingBottom="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:srcCompat="@drawable/luminyan" />
 
     <TableLayout
@@ -24,7 +35,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
 
         <TableRow
             android:layout_width="match_parent"
@@ -98,7 +109,7 @@
                 style="@style/dummyText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="npad_birth" />
+                android:text="@string/npad_birth" />
         </TableRow>
 
         <TableRow

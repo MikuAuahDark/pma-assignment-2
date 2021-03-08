@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/src/main/res/values/strings_orig.xml
+override_name_real.lua
+w.lua
