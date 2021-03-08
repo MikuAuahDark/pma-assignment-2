@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">PMA T2</string>
+    <string name="article_content">
+        Jakarta: Game Genshin Impact terus menyimpan daya tarik bagi gamer terutama mereka yang merupakan penggemar berat anime dan manga Jepang.
+        Di update terbaru game ini bakal menyajikan fitur dating simulator khas game visual novel.<br />
+        <br />
+        Update Genshin Impact 1.4 yang bakal dirilis pada 17 Maret 2021 menghadirkan karakter baru, tapi fitur dating simulator ini disebut lebih menarik karena belum pernah disajikan MiHoYo.<br />
+        <br />
+        Dikutip dari GamesRadar, di gameplay dating simulator ini pemain bisa berkencan dengan beberapa karakter Genshin Impact. Setiap pilihan dialog diklaim akan menentukan momen bersama yang bisa disaksikan atau memanjakan para gamer.<br />
+        <br />
+    </string>
+    <string name="npad_name">Miku AuahDark</string>
+    <string name="npad_birth">TBA, 1 Januari 1970</string>
+    <string name="npad_email">lumi.hotaru@gmail.com</string>
 </resources>
